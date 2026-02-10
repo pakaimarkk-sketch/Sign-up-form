@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div class="imageHolder">
+        <img id="leaf" src="/images/leaf.avif" alt="image of a leaf" />
+        <div class="odinLogo">
+        <img id="odin"  src="/images/odin-lined.png" alt="odin logo" width="100px" height="100px"/>      
+            <p class="odinText">odin</p>
+            </div>
+    </div>
+    <div class="containerText">
+        <div class="header">
+        <h4>This is not a real online service! <br> You know you need something like this in your life to help you realize your deepest dreams. <br>Sign up now to get started.</h4>
+        <p>You know you want to.</p>
+        </div>
+        <div class="containerForm">
+            <div>Let's do this!</div>
+            <form method="get"></form>
+            <div class="form">
+                <div class="formLabel">
+                    <label for="user">FIRST NAME</label>
+                    <input class="input" type="text" name="first_name" id="first_name">                    
+                </div>
+                <div class="formLabel">                    
+                    <label for="user">LAST NAME</label>
+                    <input class="input" type="text" name="last_name" id="first_name">                    
+                </div>
+            </div>
+            <div class="form">
+                <div class="formLabel">
+                    <label for="user">EMAIL</label>
+                    <input placeholder="example@gmail.com" class="input" type="email" name="e-mail" id="e-mail">                    
+                </div>
+                <div class="formLabel">  
+                    <label for="user" >PHONE NUMBER</label>
+                    <input placeholder="06 12 345 67 89" class="input" type="number" name="phone" id="phone">   
+                </div>
+            </div>
+            <div class="form">
+                <div class="formLabel">    
+                    <label for="user">PASSWORD</label>
+                    <input class="input" type="password" name="password" id="password">    
+                </div>
+                <div class="formLabel">    
+                    <label for="user">CONFIRM PASSWORD</label>                            
+                    <input class="input" type="password" name="passwordConfirm" id="passwordConfirm">
+            </div>
+            </div>
+        </div>
+        <div class="confirmation"><button type="submit">Create Account</button></div>
+                </form>
+        <div class="confirmation">Already have an account? <a id="logInLink" href="http://example.org">Log In</a></div>
+    </div>
+</div>
+</body>
+<script src="function.js"></script>
+</html>
